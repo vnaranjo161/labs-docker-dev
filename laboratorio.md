@@ -47,3 +47,17 @@ Digest: sha256:932ac36fabe1d2103ed3edbe66224ed2afe0041b317bcdb6f5d9be63594f0030
 Status: Downloaded newer image for httpd:latest
 16d7939d022282e17124461c1ceb2b48d70c0dad1e4cc497e142688069b14cab
 
+## Removing containers
+
+### Eliminar  el contenedor de Ubuntu:
+
+docker rm f432ef7ae156
+f432ef7ae156.
+
+
+### Eliminar todos los contenedores detenidos:
+
+docker container prune
+WARNING! This will remove all stopped containers.
+Are you sure you want to continue? [y/N] y
+Total reclaimed space: 0B
