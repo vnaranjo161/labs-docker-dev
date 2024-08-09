@@ -97,4 +97,17 @@ Total reclaimed space: 0B
 
 0760e3abc04e3ac622589aa0d749a84056ab8bd4fc0c14fc0a19adbf5b2a2968
 
+## Reconstruccion de imagen
 
+[+] Building 0.7s (6/6) FINISHED                                                                                       docker:default
+ => [internal] load build definition from Dockerfile                                                                             0.1s
+ => => transferring dockerfile: 147B                                                                                             0.0s
+ => [internal] load metadata for docker.io/library/ubuntu:latest                                                                 0.0s
+ => [internal] load .dockerignore                                                                                                0.1s
+ => => transferring context: 2B                                                                                                  0.0s
+ => [1/2] FROM docker.io/library/ubuntu:latest                                                                                   0.0s
+ => CACHED [2/2] RUN apt-get update && apt-get install -y nginx                                                                  0.0s
+ => exporting to image                                                                                                           0.1s
+ => => exporting layers                                                                                                          0.0s
+ => => writing image sha256:2868e2c884f0177a36a018c422ce038b4a94167e69e47d0dfe58cc2ecf1126cb                                     0.0s
+ => => naming to docker.io/library/my-nginx:latest 
