@@ -93,3 +93,8 @@ Total reclaimed space: 0B
  => => writing image sha256:afcda046831326b2781430b8e30879f47ab0795345fd3999ea048043d45c53fa                                     0.0s
  => => naming to docker.io/library/ubuntu-updated:latest 
 
+## Ejecutar imagen
+
+0760e3abc04e3ac622589aa0d749a84056ab8bd4fc0c14fc0a19adbf5b2a2968
+
+
