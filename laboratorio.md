@@ -111,3 +111,23 @@ Total reclaimed space: 0B
  => => exporting layers                                                                                                          0.0s
  => => writing image sha256:2868e2c884f0177a36a018c422ce038b4a94167e69e47d0dfe58cc2ecf1126cb                                     0.0s
  => => naming to docker.io/library/my-nginx:latest 
+
+
+## Copiar archivo HTML
+
+[+] Building 3.6s (7/7) FINISHED                                                                                       docker:default
+ => [internal] load build definition from Dockerfile                                                                             0.1s
+ => => transferring dockerfile: 94B                                                                                              0.0s
+ => [internal] load metadata for docker.io/library/nginx:latest                                                                  0.0s
+ => [internal] load .dockerignore                                                                                                0.1s
+ => => transferring context: 2B                                                                                                  0.0s
+ => [internal] load build context                                                                                                0.5s
+ => => transferring context: 244B                                                                                                0.0s
+ => [1/2] FROM docker.io/library/nginx:latest                                                                                    1.0s
+ => [2/2] COPY index.html /usr/share/nginx/html/                                                                                 1.4s
+ => exporting to image                                                                                                           0.7s
+ => => exporting layers                                                                                                          0.5s
+ => => writing image sha256:18f5a47b82af9daeffd43c47a0ec7391f14894ac4327ce47d87623a442831a82                                     0.0s
+ => => naming to docker.io/library/ubuntu-updated:latest   
+
+ 
