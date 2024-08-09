@@ -130,4 +130,20 @@ Total reclaimed space: 0B
  => => writing image sha256:18f5a47b82af9daeffd43c47a0ec7391f14894ac4327ce47d87623a442831a82                                     0.0s
  => => naming to docker.io/library/ubuntu-updated:latest   
 
- 
+ ## WORKDIR
+
+ [+] Building 1.8s (8/8) FINISHED                                                                                                docker:default
+ => [internal] load build definition from Dockerfile                                                                                      0.0s
+ => => transferring dockerfile: 87B                                                                                                       0.0s
+ => [internal] load metadata for docker.io/library/ubuntu:latest                                                                          0.0s
+ => [internal] load .dockerignore                                                                                                         0.1s
+ => => transferring context: 2B                                                                                                           0.0s
+ => CACHED [1/3] FROM docker.io/library/ubuntu:latest                                                                                     0.0s
+ => [internal] load build context                                                                                                         0.1s
+ => => transferring context: 48B                                                                                                          0.0s
+ => [2/3] WORKDIR /app                                                                                                                    0.2s
+ => [3/3] COPY myfile.txt .                                                                                                               0.3s
+ => exporting to image                                                                                                                    0.6s
+ => => exporting layers                                                                                                                   0.5s
+ => => writing image sha256:88916682c881296b87c9bfd6a23da4b63287447bb1a94eb85f0da125320da793                                              0.0s
+ => => naming to docker.io/library/ubuntu-updated:latest                
