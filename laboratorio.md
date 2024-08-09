@@ -147,3 +147,21 @@ Total reclaimed space: 0B
  => => exporting layers                                                                                                                   0.5s
  => => writing image sha256:88916682c881296b87c9bfd6a23da4b63287447bb1a94eb85f0da125320da793                                              0.0s
  => => naming to docker.io/library/ubuntu-updated:latest                
+
+
+ ## Ejecutar script: python
+
+  => [internal] load build definition from Dockerfile                                                                             0.1s
+ => => transferring dockerfile: 110B                                                                                             0.0s
+ => [internal] load metadata for docker.io/library/python:3.9                                                                    0.0s
+ => [internal] load .dockerignore                                                                                                0.1s
+ => => transferring context: 2B                                                                                                  0.0s
+ => [1/3] FROM docker.io/library/python:3.9                                                                                      0.8s
+ => [internal] load build context                                                                                                0.2s
+ => => transferring context: 56B                                                                                                 0.0s
+ => [2/3] WORKDIR /app                                                                                                           0.2s
+ => [3/3] COPY script.py .                                                                                                       0.3s
+ => exporting to image                                                                                                           2.7s
+ => => exporting layers                                                                                                          2.6s
+ => => writing image sha256:6641fba58a342248bb6a590eba14ebf31ef47653bf13eb5241e664159813994f                                     0.0s
+ => => naming to docker.io/library/mi-python-app  
